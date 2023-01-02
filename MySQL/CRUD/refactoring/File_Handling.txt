@@ -1,0 +1,14 @@
+    Yang tadinya kita meng-input dengan cara begini <input type="text" ...> dengan asumsi memasukkan nama filenya kedalam field dan gambarnya juga harus sudah tersedia
+
+    + input type="text" itu akan kita ganti menjadi type="file"
+    + enctype (encodingtype) Attr dari for untuk tipe koding seperti apa untuk menangani file
+    + $_FILES variabel superglobals yang khusus dibuat untuk menangani khasus seperti gambar
+    + move_uploaded_file fungsi inilah yang nantinya akan benar benar memindahkan file gambar dari input ke dalam server
+
+
+    ? Sebenarnya didalam MySQL kita bisa meng-upload sebuah gambar dengan tipe BLOB (Binary Large Object) ini adalah Tipe data versi binary dari TEXT, dimana karakter akan akan disimpan dalam bentuk bit yang sangat banyak
+    (ini tidak akan kita lakukan karena akan membuat Data berukuran sangat besar dan akan membuat DB menjadi berat)
+
+
+    yang akan kita lakukan adalah nanti filenya akan disimpan kedalam suatu directory dan tetap yang di INSERT adalah nama filenya
+    

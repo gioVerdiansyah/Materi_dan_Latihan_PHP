@@ -1,0 +1,278 @@
+PHP (Hypertext Preprocessor) adalah bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML. PHP banyak dipakai untuk memrogram situs web dinamis. PHP dapat digunakan untuk membangun sebuah CMS.
+
+
+
+Sejarah
+
+Pada awalnya PHP merupakan kependekan dari Personal Home Page (Situs personal). PHP pertama kali dibuat oleh Rasmus Lerdorf pada tahun 1995. Pada waktu itu PHP masih bernama Form Interpreted (FI), yang wujudnya berupa sekumpulan skrip yang digunakan untuk mengolah data formulir dari web.
+Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakannya PHP/FI. Dengan perilisan kode sumber ini menjadi sumber terbuka, maka banyak pemrogram yang tertarik untuk ikut mengembangkan PHP.
+
+Pada November 1997, dirilis PHP/FI 2.0. Pada rilis ini, interpreter PHP sudah diimplementasikan dalam program C. Dalam rilis ini disertakan juga modul-modul ekstensi yang meningkatkan kemampuan PHP/FI secara signifikan.
+
+ketika sedang membuat sebuah script (kode program) dengan bahasa Perl untuk website pribadinya. Seiring perkembangan akhirnya beliau tidak sendiri dalam mencatat sejarah php, Rasmus Lerdorf dibantu oleh beberapa programmer dan oleh The PHP Group.
+
+Sejarah PHP dan Perkembangannya - Belajar PHP Part 2
+Sejarah PHP dan perkembangannya lengkap dari awal tahun rilis hingga sekarang menurut para ahli dan beberapa pengembang aplikasi berbasis web akan kita kupas tuntas pada artikel ini. Sejarah php berawal pada tahun 1994 dan seiring perkembangannya sampai dengan saat ini akhirnya PHP menjadi bahasa pemrograman web terpopuler nomor 1 di Dunia. Bahkan jika kita ikuti sejarah php lebih dalam, ternyata PHP yang kita kenal sekarang ini adalah sangat jauh berbeda dengan apa yang menjadi tujuan awal bahasa ini dikembangkan. Jika membahas sejarah PHP maka seharusnya tidak lepas dari versi perkembangannya, bermula dari PHP/FI versi 1 sampai dengan PHP versi 5.6.3 yang cukup bertahan lama penggunaannya dalam catatan sejarah php hingga sekarang ini telah mencapai PHP versi 7.
+
+
+Jika membahas sejarah php dan perkembangannya berdasarkan versi rilis, maka alangkah baiknya kita ketahui juga siapa penemu di balik bahasa pemrograman web yang sangat populer ini. Yaitu oleh Rasmus Lerdorf pada tahun 1994 - 1995 ketika sedang membuat sebuah script (kode program) dengan bahasa Perl untuk website pribadinya. Seiring perkembangan akhirnya beliau tidak sendiri dalam mencatat sejarah php, Rasmus Lerdorf dibantu oleh beberapa programmer dan oleh The PHP Group.
+
+Sejarah PHP dan Perkembangannya
+sejarah php
+sejarah php dan perkembangannya
+Berikut adalah serangkaian sejarah php dan perkembangannya menurut para ahli lengkap mulai dari awal tahun rilis versi 1 hingga sekarang ini di php versi 7.
+
+1. PHP/FI : Personal Home Page/Forms Interpreter
+Ini adalah awal dari sejarah PHP yaitu pada tahun 1994, ketika itu programmer kelahiran Denmark yang bernama Rasmus Lerdorf membuat sebuah script (coding) atau kode program dengan bahasa Perl untuk website pribadinya. Tujuan beliau membuat script tersebut adalah untuk menampilkan resume pribadi dan mencatat jumlah pengunjung ke sebuah website nya. Namun karena alasan untuk meningkatkan performa, akhirnya Rasmus Lerdorf membuat ulang kode program tersebut dalam bahasa C. Hingga akhirnya karena perkembangan lebih lanjut, kode program tersebut memiliki kemampuan untuk memproses form HTML dan berkomunikasi dengan database.
+
+Dalam catatan sejarah php dan perkembangannya, Lerdorf menyebut script atau kode program ini sebagai Personal Home Page/Forms Interpreter atau PHP/FI, dan inilah sejarah php yang menjadi awal mula penamaan PHP digunakan. PHP/FI dapat digunakan untuk membuat aplikasi web dinamis yang masih sederhana.
+
+Meskipun sederhana, Lerdorf kemudian tetap merilis kode program tersebut kepada publik dengan sebutan Personal Home Page Tools (PHP Tools) version 1.0. Dimana perilisan veris ini diumumkan pada 8 Juni 1995 di alamat web comp.infosystems.www.authoring.cgi yaitu sebuah group diskusi Usenet.
+
+Berikut adalah isi dari pengumuman tersebut sebagai awal dari sejarah php dan perkembangannya dengan dirilisnya PHP Tools version 1.0;
+Pengumuman tersebut merepresentasikan bahwa PHP pada awal sejarah php dan perkembangannya adalah sebuah framework bahasa C yang memiliki banyak fungsi dalam mengembangkan web, seperti penanganan form dan kemampuan mengakses data dari halaman lain. Bukan sebuah bahasa pemrograman utuh seperti yang kita kenal sekarang.
+
+Sejarah PHP dan Perkembangannya - Belajar PHP Part 2
+Sejarah PHP dan perkembangannya lengkap dari awal tahun rilis hingga sekarang menurut para ahli dan beberapa pengembang aplikasi berbasis web akan kita kupas tuntas pada artikel ini. Sejarah php berawal pada tahun 1994 dan seiring perkembangannya sampai dengan saat ini akhirnya PHP menjadi bahasa pemrograman web terpopuler nomor 1 di Dunia. Bahkan jika kita ikuti sejarah php lebih dalam, ternyata PHP yang kita kenal sekarang ini adalah sangat jauh berbeda dengan apa yang menjadi tujuan awal bahasa ini dikembangkan. Jika membahas sejarah PHP maka seharusnya tidak lepas dari versi perkembangannya, bermula dari PHP/FI versi 1 sampai dengan PHP versi 5.6.3 yang cukup bertahan lama penggunaannya dalam catatan sejarah php hingga sekarang ini telah mencapai PHP versi 7.
+
+
+Jika membahas sejarah php dan perkembangannya berdasarkan versi rilis, maka alangkah baiknya kita ketahui juga siapa penemu di balik bahasa pemrograman web yang sangat populer ini. Yaitu oleh Rasmus Lerdorf pada tahun 1994 - 1995 ketika sedang membuat sebuah script (kode program) dengan bahasa Perl untuk website pribadinya. Seiring perkembangan akhirnya beliau tidak sendiri dalam mencatat sejarah php, Rasmus Lerdorf dibantu oleh beberapa programmer dan oleh The PHP Group.
+
+Sejarah PHP dan Perkembangannya
+sejarah php
+sejarah php dan perkembangannya
+Berikut adalah serangkaian sejarah php dan perkembangannya menurut para ahli lengkap mulai dari awal tahun rilis versi 1 hingga sekarang ini di php versi 7.
+
+1. PHP/FI : Personal Home Page/Forms Interpreter
+Ini adalah awal dari sejarah PHP yaitu pada tahun 1994, ketika itu programmer kelahiran Denmark yang bernama Rasmus Lerdorf membuat sebuah script (coding) atau kode program dengan bahasa Perl untuk website pribadinya. Tujuan beliau membuat script tersebut adalah untuk menampilkan resume pribadi dan mencatat jumlah pengunjung ke sebuah website nya. Namun karena alasan untuk meningkatkan performa, akhirnya Rasmus Lerdorf membuat ulang kode program tersebut dalam bahasa C. Hingga akhirnya karena perkembangan lebih lanjut, kode program tersebut memiliki kemampuan untuk memproses form HTML dan berkomunikasi dengan database.
+
+Dalam catatan sejarah php dan perkembangannya, Lerdorf menyebut script atau kode program ini sebagai Personal Home Page/Forms Interpreter atau PHP/FI, dan inilah sejarah php yang menjadi awal mula penamaan PHP digunakan. PHP/FI dapat digunakan untuk membuat aplikasi web dinamis yang masih sederhana.
+
+Meskipun sederhana, Lerdorf kemudian tetap merilis kode program tersebut kepada publik dengan sebutan Personal Home Page Tools (PHP Tools) version 1.0. Dimana perilisan veris ini diumumkan pada 8 Juni 1995 di alamat web comp.infosystems.www.authoring.cgi yaitu sebuah group diskusi Usenet.
+
+Berikut adalah isi dari pengumuman tersebut sebagai awal dari sejarah php dan perkembangannya dengan dirilisnya PHP Tools version 1.0;
+
+codesource
+From: rasmus@io.org (Rasmus Lerdorf)
+Subject: Announce: Personal Home Page Tools (PHP Tools)
+Date: 1995/06/08
+Message-ID: <3r7pgp$aa1@ionews.io.org>#1/1
+organization: none
+newsgroups: comp.infosystems.www.authoring.cgi
+ 
+Announcing the Personal Home Page Tools (PHP Tools) version 1.0.
+These tools are a set of small tight cgi binaries written in C.
+They perform a number of functions including:
+ 
+. Logging accesses to your pages in your own private log files
+. Real-time viewing of log information
+. Providing a nice interface to this log information
+. Displaying last access information right on your pages
+. Full daily and total access counters
+. Banning access to users based on their domain
+. Password protecting pages based on users' domains
+. Tracking accesses ** based on users' e-mail addresses **
+. Tracking referring URL's - HTTP_REFERER support
+. Performing server-side includes without needing server support for it
+. Ability to not log accesses from certain domains (ie. your own)
+. Easily create and display forms
+. Ability to use form information in following documents
+ 
+Here is what you don't need to use these tools:
+. You do not need root access - install in your ~/public_html dir
+. You do not need server-side includes enabled in your server
+. You do not need access to Perl or Tcl or any other script interpreter
+. You do not need access to the httpd log files
+ 
+The only requirement for these tools to work is that you have
+the ability to execute your own cgi programs. Ask your system
+administrator if you are not sure what this means.
+ 
+The tools also allow you to implement a guestbook or any other
+form that needs to write information and display it to users
+later in about 2 minutes.
+ 
+The tools are in the public domain distributed under the GNU
+Public License. Yes, that means they are free!
+For a complete demonstration of these tools, point your browser
+at: http://www.io.org/~rasmus
+ 
+--
+Rasmus Lerdorf
+rasmus@io.org
+http://www.io.org/~rasmus
+Pengumuman tersebut merepresentasikan bahwa PHP pada awal sejarah php dan perkembangannya adalah sebuah framework bahasa C yang memiliki banyak fungsi dalam mengembangkan web, seperti penanganan form dan kemampuan mengakses data dari halaman lain. Bukan sebuah bahasa pemrograman utuh seperti yang kita kenal sekarang.
+
+2. PHP/FI : Personal Home Page/Forms Interpreter 2
+Sejarah php dan perkembangannya selanjutnya adalah pada sekitar April 1996, Rasmus Lerdorf mengumumkan perkembangan yaitu PHP/FI versi 2.0. Sejarah PHP pada versi 2 ini dirancang pada saat mengerjakan sebuah proyek di University of Toronto yang membutuhkan pengolahan data dan tampilan web yang cukup rumit.
+
+Berikut adalah email dari Lerdorf yang ditujukan kepada group diskusi Usenet pada tahun 1996 sebagai catatan sejarah php di versi 2.
+Sejarah PHP dan Perkembangannya - Belajar PHP Part 2
+Sejarah PHP dan perkembangannya lengkap dari awal tahun rilis hingga sekarang menurut para ahli dan beberapa pengembang aplikasi berbasis web akan kita kupas tuntas pada artikel ini. Sejarah php berawal pada tahun 1994 dan seiring perkembangannya sampai dengan saat ini akhirnya PHP menjadi bahasa pemrograman web terpopuler nomor 1 di Dunia. Bahkan jika kita ikuti sejarah php lebih dalam, ternyata PHP yang kita kenal sekarang ini adalah sangat jauh berbeda dengan apa yang menjadi tujuan awal bahasa ini dikembangkan. Jika membahas sejarah PHP maka seharusnya tidak lepas dari versi perkembangannya, bermula dari PHP/FI versi 1 sampai dengan PHP versi 5.6.3 yang cukup bertahan lama penggunaannya dalam catatan sejarah php hingga sekarang ini telah mencapai PHP versi 7.
+
+
+Jika membahas sejarah php dan perkembangannya berdasarkan versi rilis, maka alangkah baiknya kita ketahui juga siapa penemu di balik bahasa pemrograman web yang sangat populer ini. Yaitu oleh Rasmus Lerdorf pada tahun 1994 - 1995 ketika sedang membuat sebuah script (kode program) dengan bahasa Perl untuk website pribadinya. Seiring perkembangan akhirnya beliau tidak sendiri dalam mencatat sejarah php, Rasmus Lerdorf dibantu oleh beberapa programmer dan oleh The PHP Group.
+
+Sejarah PHP dan Perkembangannya
+sejarah php
+sejarah php dan perkembangannya
+Berikut adalah serangkaian sejarah php dan perkembangannya menurut para ahli lengkap mulai dari awal tahun rilis versi 1 hingga sekarang ini di php versi 7.
+
+1. PHP/FI : Personal Home Page/Forms Interpreter
+Ini adalah awal dari sejarah PHP yaitu pada tahun 1994, ketika itu programmer kelahiran Denmark yang bernama Rasmus Lerdorf membuat sebuah script (coding) atau kode program dengan bahasa Perl untuk website pribadinya. Tujuan beliau membuat script tersebut adalah untuk menampilkan resume pribadi dan mencatat jumlah pengunjung ke sebuah website nya. Namun karena alasan untuk meningkatkan performa, akhirnya Rasmus Lerdorf membuat ulang kode program tersebut dalam bahasa C. Hingga akhirnya karena perkembangan lebih lanjut, kode program tersebut memiliki kemampuan untuk memproses form HTML dan berkomunikasi dengan database.
+
+Dalam catatan sejarah php dan perkembangannya, Lerdorf menyebut script atau kode program ini sebagai Personal Home Page/Forms Interpreter atau PHP/FI, dan inilah sejarah php yang menjadi awal mula penamaan PHP digunakan. PHP/FI dapat digunakan untuk membuat aplikasi web dinamis yang masih sederhana.
+
+Meskipun sederhana, Lerdorf kemudian tetap merilis kode program tersebut kepada publik dengan sebutan Personal Home Page Tools (PHP Tools) version 1.0. Dimana perilisan veris ini diumumkan pada 8 Juni 1995 di alamat web comp.infosystems.www.authoring.cgi yaitu sebuah group diskusi Usenet.
+
+Berikut adalah isi dari pengumuman tersebut sebagai awal dari sejarah php dan perkembangannya dengan dirilisnya PHP Tools version 1.0;
+
+codesource
+From: rasmus@io.org (Rasmus Lerdorf)
+Subject: Announce: Personal Home Page Tools (PHP Tools)
+Date: 1995/06/08
+Message-ID: <3r7pgp$aa1@ionews.io.org>#1/1
+organization: none
+newsgroups: comp.infosystems.www.authoring.cgi
+ 
+Announcing the Personal Home Page Tools (PHP Tools) version 1.0.
+These tools are a set of small tight cgi binaries written in C.
+They perform a number of functions including:
+ 
+. Logging accesses to your pages in your own private log files
+. Real-time viewing of log information
+. Providing a nice interface to this log information
+. Displaying last access information right on your pages
+. Full daily and total access counters
+. Banning access to users based on their domain
+. Password protecting pages based on users' domains
+. Tracking accesses ** based on users' e-mail addresses **
+. Tracking referring URL's - HTTP_REFERER support
+. Performing server-side includes without needing server support for it
+. Ability to not log accesses from certain domains (ie. your own)
+. Easily create and display forms
+. Ability to use form information in following documents
+ 
+Here is what you don't need to use these tools:
+. You do not need root access - install in your ~/public_html dir
+. You do not need server-side includes enabled in your server
+. You do not need access to Perl or Tcl or any other script interpreter
+. You do not need access to the httpd log files
+ 
+The only requirement for these tools to work is that you have
+the ability to execute your own cgi programs. Ask your system
+administrator if you are not sure what this means.
+ 
+The tools also allow you to implement a guestbook or any other
+form that needs to write information and display it to users
+later in about 2 minutes.
+ 
+The tools are in the public domain distributed under the GNU
+Public License. Yes, that means they are free!
+For a complete demonstration of these tools, point your browser
+at: http://www.io.org/~rasmus
+ 
+--
+Rasmus Lerdorf
+rasmus@io.org
+http://www.io.org/~rasmus
+Pengumuman tersebut merepresentasikan bahwa PHP pada awal sejarah php dan perkembangannya adalah sebuah framework bahasa C yang memiliki banyak fungsi dalam mengembangkan web, seperti penanganan form dan kemampuan mengakses data dari halaman lain. Bukan sebuah bahasa pemrograman utuh seperti yang kita kenal sekarang.
+
+2. PHP/FI : Personal Home Page/Forms Interpreter 2
+Sejarah php dan perkembangannya selanjutnya adalah pada sekitar April 1996, Rasmus Lerdorf mengumumkan perkembangan yaitu PHP/FI versi 2.0. Sejarah PHP pada versi 2 ini dirancang pada saat mengerjakan sebuah proyek di University of Toronto yang membutuhkan pengolahan data dan tampilan web yang cukup rumit.
+
+Berikut adalah email dari Lerdorf yang ditujukan kepada group diskusi Usenet pada tahun 1996 sebagai catatan sejarah php di versi 2.
+
+codesource
+From: rasmus@madhaus.utcs.utoronto.ca (Rasmus Lerdorf)
+Subject: ANNOUNCE: PHP/FI Server-side HTML-Embedded Scripting Language
+Date: 1996/04/16
+Newsgroups: comp.infosystems.www.authoring.cgi
+ 
+PHP/FI is a server-side HTML embedded scripting language. It has built-in
+access logging and access restriction features and also support for
+embedded SQL queries to mSQL and/or Postgres95 backend databases.
+ 
+It is most likely the fastest and simplest tool available for creating
+database-enabled web sites.
+It will work with any UNIX-based web server on every UNIX flavour out
+there. The package is completely free of charge for all uses including
+commercial.
+ 
+Feature List:
+. Access Logging
+Log every hit to your pages in either a dbm or an mSQL database.
+Having hit information in a database format makes later analysis easier.
+. Access Restriction
+Password protect your pages, or restrict access based on the refering URL
+plus many other options.
+. mSQL Support
+Embed mSQL queries right in your HTML source files
+. Postgres95 Support
+Embed Postgres95 queries right in your HTML source files
+. DBM Support
+DB, DBM, NDBM and GDBM are all supported
+. RFC-1867 File Upload Support
+Create file upload forms
+. Variables, Arrays, Associative Arrays
+. User-Defined Functions with static variables + recursion
+. Conditionals and While loops
+Writing conditional dynamic web pages could not be easier than with
+the PHP/FI conditionals and looping support
+. Extended Regular Expressions
+Powerful string manipulation support through full regexp support
+. Raw HTTP Header Control
+Lets you send customized HTTP headers to the browser for advanced
+features such as cookies.
+. Dynamic GIF Image Creation
+Thomas Boutell's GD library is supported through an easy-to-use set of
+tags.
+ 
+It can be downloaded from the File Archive at: <URL:http://www.vex.net/php>
+--
+ 
+Rasmus Lerdorf
+rasmus@vex.net
+lebih lanjut tentang sejarah php dan perkembangannya, bahwa Email tersebut menjelaskan beberapa penambahan fitur baru dan sebagai informasi bahwa ini adalah sebagai sejarah php pertama kalinya kata "scripting language" (bahasa script) digunakan dalam PHP. Perilisan versi kedua ini salah satunya karena tuntutan programmer web yang saat itu menginginkan lebih dari sekedar kumpulan fungsi-fungsi, namun juga membutuhkan fitur logika seperti "if else".
+
+
+3. PHP: Hypertext Preprocessor 3
+Sejarah PHP dan perkembangannya selanjutnya terjadi pada pertengahan tahun 1997, ternyata PHP versi 2 telah menarik banyak perhatian programmer. Meskipun dinilai bahasa ini memiliki masalah dengan kestabilan yang kurang bisa diandalkan. Hingga akhirnya beberapa teman programmer yaitu Zeev Suraski dan Andi Gutmans ikut mengambil bagian dan membuat ulang parsing engine yang menjadi dasar dari PHP agar lebih stabil.
+
+Oleh karena dukungan dari programmer lain, proyek PHP secara perlahan beralih dari proyek satu orang menjadi proyek massal yang lebih familiar kita kenal sebagai open-source project. Catatan sejarah php selanjutnya adalah bahwa PHP akhirnya dikembangkan oleh The PHP Group yang merupakan kumpulan banyak programmer dari seluruh dunia. Sejarah php selanjutnya adalah ditandai bahwa PHP versi 3 resmi dirilis pada sekitar Juni 1998.
+
+Sejarah php pada PHP versi 3 ditandai dengan perubahan kepanjangan PHP menjadi PHP: Hypertext Preprocessor, dimana ini adalah kepanjangan rekursrif, sebuah istilah dalam pemrograman dimana suatu fungsi memanggil dirinya sendiri. PHP versi 3 semakin populer digunakan di seluruh dunia, dan sejak saat itu penggunaan PHP sebagai bahasa pemrograman web menjadi sebuah standar bagi programmer.
+
+4. PHP: Hypertext Preprocessor 4
+Sejarah php dan perkembangannya kembali tercatat pada tahun 2000 yaitu ketika Zeev Suraski, Andi Gutmans dan juga berbagai programmer di seluruh dunia mengembangkan PHP lebih jauh lagi. PHP memperkenalkan banyak fitur lanjutan, seperti layer abstraksi antara PHP dengan web server, menambahkan mekanisme thread-safety, dan two-stage parsing. Parsing baru ini dikembangkan oleh Zeev dan Andi, dan dinamakan Zend engine. Hingga akhirnya sejarah php baru pada 22 May 2000 diluncurkanlah PHP 4.0.
+
+Sebagai informasi sejarah php dan perkembangannya, bahwa pada PHP versi 4 telah menyertakan fitur pemrograman objek atau Object Oriented Programming, meskipun OOP tersebut belum sempurna.
+
+5. PHP: Hypertext Preprocessor 5
+Sejarah php dan perkembangannya kembali dicatat pada tahun 2004 yaitu ketika PHP 5 diluncurkan tepatnya pada 13 Juli 2004. Perlu kita ketahui bahwa PHP versi 5 telah mendukung penuh pemrograman object dan peningkatan performa melalui Zend engine versi 2. Beberapa penambahan fitur diantaranya meliputi PDO (PHP Data Objects) untuk pengaksesan dan koneksi database, closures, trait, dan namespaces.
+
+PHP versi 5 memiliki sejarah php yang cukup panjang sekitar kurang lebih 10 tahun, hingga pada Desember 2014 versi ini cukup stabil, akhir dari PHP 5 adalah pada versi 5.6.3.
+
+6. PHP: Hypertext Preprocessor 6
+Sejarah php dan perkembangannya selanjutnya sebetulnya bersamaan dengan php versi 5 yaitu pada tahun 2005 dengan versi lanjutannya yaitu PHP 6. Namun fokus pengembangan PHP 6 hanya dalam keperluan untuk mendukung Unicode agar PHP bisa mendukung berbagai jenis karakter bahasa non-latin.
+
+Kemudian karena beberapa alasan seperti kurangnya programmer dan performa yang tidak memuaskan, akhirnya pengembangan PHP 6 dihentikan, disini catatan sejarah php versi 6 selesai. Selanjutnya fitur-fitur yang ada pada versi 6 dimasukkan ke dalam PHP 5.
+
+7. PHP: Hypertext Preprocessor 7
+Sejarah php dan perkembangannya tercatat pada tanggal 3 Desember 2015 yaitu dengan resmi dirilisnya PHP 7 dengan peningkatan performa dan beberapa fitur pengganti yang cukup signifikan. Karena telah menggunakan Zend Engine 3, PHP 7 diklaim berjalan 2 kali lebih cepat daripada PHP 5.6. Fitur baru yang disematkan pada php 7 diantaranya adalah combined comparison operator atau dikenal dengan spaceship operator "<=>", anonymous classes, dan dukungan yang lebih stabil untuk server 64-bit.
+
+Beberapa fitur yang sudah usang seperti "deprecated" juga resmi dihapus, dan ini dapat dijadikan sebagai catatan tambahan sejarah php. Kemudian penulisan PHP dengan ASP style <% %> dan tag <script language=php> </script>, kedua cara ini sudah tidak bisa digunakan lagi. Modul mysql extension juga dihapus karena sudah diganti dengan mysqli extension. Penghapusan modul mysql extension ini sering menjadi masalah karena banyak kode program atau buku PHP lama yang masih menggunakannya. Termasuk beberapa aplikasi rajaputramedia yang rilis sejak 2013, saat ini sudah mulai berganti ke php versi 7.
+
+Dalam catatan sejarah php dan perkembangannya, perlu diketahui bahwa Kemudian core engine PHP 7 berasal dari proyek eksperimen phpng (PHP next generation), yang dikembangkan Dmitry Stogov, Xinchen Hui dan Nikita Popov. Proyek ini menggunakan pendekatan modern agar PHP diproses dengan lebih cepat seperti memakai teknik just-in-time (JIT) compiler.
+
+Hingga saat artikel ini diposting perkembangan sejarah php telah masuk ke php versi 7.4.0 yang rilis pada 28 November 2019.
+
+
+Pengertian PHP
+PHP adalah singkatan dari “PHP: Hypertext Prepocessor”, yaitu bahasa pemrograman disisi server yang digunakan secara luas untuk penanganan pembuatan dan pengembangan sebuah situs web dan bisa digunakan bersamaan dengan HTML. Ketika Anda mengakses sebuah URL, maka web browser akan melakukan request ke sebuah web server.
+
+Karakteristik PHP:
+- ekstensi .php (meski di dalamnnya isinya html semua atau campuran saja itu ngk masalah)
+- ditulis didalam tag php (dlimiter) / pemisah: <?php ... ?>
+- bisa digunakan bersamaan dengan HTML (bisa nulis php dalam html atau sebaliknya)
+- mengikuti bahasa C

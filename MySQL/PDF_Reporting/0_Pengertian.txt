@@ -1,0 +1,22 @@
+PDF Reporting
+atau istilahnya PHP to PDF
+
+Dengan mengunah script kita menjadi PDF memungkinkan kita untuk membuat:
+- Laporan
+- Kuitansi/invoice/faktor
+- From isian
+- ...
+
+Ada 2 cara yaitu:
++ fitur bawaan browser
++ Library PHP (FPDF, mPDF, DOMPDF, ...)
+
+
+# bawaan browser:
+    tinggal double click lalu Print atau Ctrl + P
+
+Namun jika pake bawaan yang diprint adalah semuanya, dan kita kadang kadang hanya ingin print suatu bagian saja
+
+Caranya adalah dengan memanfaat kan CSS:
+@media print{}
+ini adalah syntax CSS yang hanya berlaku saat doprint saja

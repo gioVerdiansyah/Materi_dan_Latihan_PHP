@@ -1,0 +1,22 @@
+Live Search
+adalah fitur pencarian yang hasilnya ditampilkan secara langsung
+Untuk menerapkan fitur ini kita akan menggunakan konsep
+
+AJAX
+Sebuah teknologi dari singkatan Asynchronous Javascript And XML
+Asynchronous ini adalah tidak sinkron
+
+contohnya saat kita membuka suatu website itu adalah sebuah proses Request dan Respon dan proses inilah dinamakan sinkron
+
+Kenapa dinamakan sinkron? Karena saat kita merequest dan server merespon atau mengembalikan nilai maka halaman tersebut di refresh seluruh kontennya
+
+perbedaan Synchronous dan Asynchronous
+- Synchronous ini akan mengembalikan semua isi HTML hanya dengan satu request saja
+- Asynchronous ini akan mengembalikan hanya sebagian kecil dari halaman kita aja(yang dibutuhkan saja)
+
+Untuk melakukan teknik AJAX ini kita butuh sebuah object yang ada didalam browser kta (object AJAX) yaitu disebut dengan 
+XMLHttpRequeast()
+
+Object inilah yang nantinya akan mengelola request kita menggunakan teknik AJAX
+
+Minimal untuk mempelajari AJAX ini harus bisa javascript dasar dan DOM

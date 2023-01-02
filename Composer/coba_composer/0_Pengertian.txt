@@ -1,0 +1,20 @@
+Composer Dependency manager Untuk PHP
+# Dependency atau ketergantungan:
+misal kita memiliki file HTML yang terkait ke link CSS ataupun JS, maka file HTML tersebut bergantung ke file CSS dan JS
+
+Begitupun dengan PHP yang misal kita menggunakan link untuk terhubung dengan script PHP orang lain maka file kita ini bergantung dengan script orang lain juga bahkan orang lain ini juga bisa bergantung ke script orang lain juga dan seterusnya
+
+# Composer adalah sebuah Dependency manager untuk file PHP
+ 
+Biasanya setiap Composer memiliki repository sendiri, untuk Composer ini repository-nya ada di https://packagist.org
+
+# untuk instalalinya tinggal kunjungi https://getcomposer.org/download/ lalu Click Composer-Setup.exe dan setupnya tinggal next next saja
+
+# Mendownload script orang lain dengan composer
+    1 Arahkan kedirectory ini/yang dibuuhkan
+    2 Search faker atau https://packagist.org/packages/fzaninotto/faker
+    3 dibawah nama fzaninotto/faker ini ada composer require fzaninotto/faker dan inilah yang akan digunakan untuk Mendownload packages nya
+
+Folder vendor adalah folder yang akan menyimpan semua hasil download packages
+
+file composer.json ini yang akan mengatur packages mana yang akan kita kelola

@@ -1,0 +1,19 @@
+PAGINATION
+ini adalah sebuah tehnik agar membatasi daya tampil di web kita menjadi beberapa halaman
+
+LIMIT
+adalah method yang akan digunakan untuk membatasi berapa banyak data yang akan tampil
+
+
+Contoh menampilkan 2 data saja:
+$siswa = query("SELECT * FROM siswa_rpl LIMIT 1,2");
+
+LIMIT ini memiliki 2 nilai:
+- nilai yang pertama adalah datanya mau dimulai dari data ke berapa (menggunakan urutan index)
+- nilai kedua adalah mau berapa data yang akan ditampilkan?
+
+LIMIT 1,2
+artinya tampilkan hanya 2 data mulai dari data dengan index ke 1
+
+
+NOTE: jika data yang mau ditampilkan melebihi dari data yang ada maka data yang akan ditampilkan hanya data seadanya
