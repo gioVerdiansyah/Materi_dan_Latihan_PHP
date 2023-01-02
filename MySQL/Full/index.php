@@ -9,7 +9,7 @@ require 'functions.php';
 
 
 $siswa = query(
-    "SELECT * FROM siswa_rpl LIMIT $awalData,$jumlahDataPerHalaman"
+    "SELECT * FROM siswa_rpl ORDER BY id DESC LIMIT $awalData,$jumlahDataPerHalaman"
 );
 
 if (isset($_POST["submit"])) {
@@ -26,10 +26,38 @@ if (isset($_POST["submit"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
-</head>
-
-<body style="display:flex; align-items: center; justify-content: center; flex-direction: column;">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../assets/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="../../assets/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="../../assets/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../../assets/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120"
+        href="../../assets/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../assets/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+        href="../../assets/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="../../assets/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="../../assets/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="../../assets/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../../assets/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="../../assets/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     tr td {
         text-align: center;
     }
@@ -77,8 +105,10 @@ if (isset($_POST["submit"])) {
         display: none;
     }
     </style>
+</head>
 
-    <h1>READ</h1>
+<body>
+
 
     <div class="parent">
         <div class="kelompok">
@@ -93,7 +123,7 @@ if (isset($_POST["submit"])) {
             </div>
             <div class="col-2">
                 <a href="INSERT.php"><button class="add-data"> Add Data </button></a>
-                <a href="cetak.php" target="_blank"><button class="cetak"> Cetak! </button></a>
+                <a href="print.php" target="_blank"><button class="cetak"> Print! </button></a>
                 <a href="logout.php" class="logout" onclick="return confirm('Sure?');"><button>Log Out</button></a>
             </div>
         </div>
@@ -172,7 +202,7 @@ if (isset($_POST["submit"])) {
         </div>
     </div>
     <script src="AJAX/jquery-3.6.3.min.js"></script>
-    <script src="AJAX/query-ajax.js"></script>
+    <script src="AJAX/ajax-query.js"></script>
 </body>
 
 </html>
