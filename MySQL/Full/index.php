@@ -51,59 +51,59 @@ if (isset($_POST["submit"])) {
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <style>
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
 
-    tr td {
-        text-align: center;
-    }
+        tr td {
+            text-align: center;
+        }
 
-    .parent {
-        display: flex;
-        flex-direction: column;
-    }
+        .parent {
+            display: flex;
+            flex-direction: column;
+        }
 
-    .kelompok {
-        width: 100%;
-        margin: 5px 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-self: flex-start;
-        justify-content: space-between;
-    }
+        .kelompok {
+            width: 100%;
+            margin: 5px 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-self: flex-start;
+            justify-content: space-between;
+        }
 
-    .col-1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+        .col-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .col-2 a .add-data,
-    .col-2 a .cetak {
-        margin-right: 15px;
-    }
+        .col-2 a .add-data,
+        .col-2 a .cetak {
+            margin-right: 15px;
+        }
 
-    .add-data a,
-    .col-2 .logout {
-        text-decoration: none;
-    }
+        .add-data a,
+        .col-2 .logout {
+            text-decoration: none;
+        }
 
-    h1 {
-        display: flex;
-        justify-self: flex-start;
-        align-self: flex-start;
-    }
+        h1 {
+            display: flex;
+            justify-self: flex-start;
+            align-self: flex-start;
+        }
 
-    #load {
-        margin-left: 5px;
-        display: none;
-    }
+        #load {
+            margin-left: 5px;
+            display: none;
+        }
     </style>
 </head>
 
@@ -146,24 +146,24 @@ if (isset($_POST["submit"])) {
                 $iD = 1;
                 foreach ($siswa as $row):
                     ?>
-                <tr>
-                    <td><?= $iD ?></td>
-                    <td>
-                        <a href="UPDATE.php?id=<?= $row['id'] ?>">Edit</a><br>
-                        <a href="DELETE.php?id=<?= $row['id'] ?>" onclick="return confirm('Sure?');">Delete</a>
-                    </td>
-                    <td><img src="../../assets/TEMP/<?= $row['gambar'] ?>" alt="Photo Profile" width="50" height="50">
-                    </td>
-                    <td>
-                        <?= $row["nis"] ?>
-                    </td>
-                    <td><?= $row["nama"] ?></td>
-                    <td>
-                        <?= $row["email"] ?>
-                    </td>
-                    <td><?= $row["jurusan"] ?></td>
-                </tr>
-                <?php
+                    <tr>
+                        <td><?= $iD ?></td>
+                        <td>
+                            <a href="UPDATE.php?id=<?= $row['id'] ?>">Edit</a><br>
+                            <a href="DELETE.php?id=<?= $row['id'] ?>" onclick="return confirm('Sure?');">Delete</a>
+                        </td>
+                        <td><img src="../../assets/TEMP/<?= $row['gambar'] ?>" alt="Photo Profile" width="50" height="50">
+                        </td>
+                        <td>
+                            <?= $row["nis"] ?>
+                        </td>
+                        <td><?= $row["nama"] ?></td>
+                        <td>
+                            <?= $row["email"] ?>
+                        </td>
+                        <td><?= $row["jurusan"] ?></td>
+                    </tr>
+                    <?php
                     $iD++;
                 endforeach
                 ?>
@@ -171,34 +171,34 @@ if (isset($_POST["submit"])) {
         </div>
         <!-- Navigasi PAGINATION -->
         <?php if (!isset($_POST["submit"])): ?>
-        <!-- hilangkan saat tombol search ditekan -->
-        <div id="pagination" class="col-1" style="margin:5px">
-            <!-- fitur arrow -->
-            <?php if ($halamanAktif > 1): ?>
-            <a href="?page=<?= $halamanAktif - 1 ?>">&laquo;</a>
-            <?php endif ?>
+            <!-- hilangkan saat tombol search ditekan -->
+            <div id="pagination" class="col-1" style="margin:5px">
+                <!-- fitur arrow -->
+                <?php if ($halamanAktif > 1): ?>
+                    <a href="?page=<?= $halamanAktif - 1 ?>">&laquo;</a>
+                    <?php endif ?>
 
-            <?php for ($i = 1; $i <= $jumlahHalaman; $i++): ?>
+                <?php for ($i = 1; $i <= $jumlahHalaman; $i++): ?>
 
-            <!-- membuat user tahu bahwa sedang aktif di halaman berapa dengan menggunakan tanda bold di anchornya -->
-            <?php if ($i == $halamanAktif): ?>
-            <a href="?page=<?= $i ?>" style="margin:0 5px;font-weight:bold;color:green;">
-                <?= $i ?>
-            </a>
-            <?php else: ?>
-            <a href="?page=<?= $i ?>" style="margin:0 5px">
-                <?= $i ?>
-            </a>
-            <?php endif ?>
+                    <!-- membuat user tahu bahwa sedang aktif di halaman berapa dengan menggunakan tanda bold di anchornya -->
+                    <?php if ($i == $halamanAktif): ?>
+                        <a href="?page=<?= $i ?>" style="margin:0 5px;font-weight:bold;color:green;">
+                            <?= $i ?>
+                        </a>
+                        <?php else: ?>
+                        <a href="?page=<?= $i ?>" style="margin:0 5px">
+                            <?= $i ?>
+                        </a>
+                        <?php endif ?>
 
-            <?php endfor ?>
+                    <?php endfor ?>
 
-            <!-- fitur arrow -->
-            <?php if ($halamanAktif < $jumlahHalaman): ?>
-            <a href="?page=<?= $halamanAktif + 1 ?>">&raquo;</a>
-            <?php endif ?>
+                <!-- fitur arrow -->
+                <?php if ($halamanAktif < $jumlahHalaman): ?>
+                    <a href="?page=<?= $halamanAktif + 1 ?>">&raquo;</a>
+                    <?php endif ?>
 
-            <?php endif ?>
+                <?php endif ?>
         </div>
     </div>
     <script src="AJAX/jquery-3.6.3.min.js"></script>
