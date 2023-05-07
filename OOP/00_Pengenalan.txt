@@ -1,0 +1,30 @@
+OOP adalah gaya penulisan code program atau biasa disebut juga dengan Paradigma pemrograman
+
+Sebelumnya kita menulis dengan gaya procedural
+Procedural Programming:
++ Instruksi dilakukan langkah demi langkah
++ Memecah program menjadi bagian-bagian kecil 
++ Disebut procedural, subrouine atau function
++ Linear / Top-to-Bottom
+
+Kelebihan:
++ To-the-Point
++ Simplicity & kemudahan implementasi
++ Mudah ditelusuri
++ Membutuhkan lebih sedikit memori
+
+Object Oriented Programming:
++ Menyusun semua kode dan struktur data sebagai Object
++ Object adalah unit dasar dari program
++ Object menyimpan data dan prilaku (Property & Method)
++ Object bisa saling berinteraksi
+
+
+Kelebihan:
++ Representasi dunia nyata
++ Enkapsulasi & Abstraksi data
++ Reusability (Menggunakan ulang kode)
++ Skalabilitas & kstesibilitas (Memudahkan pengembang ketika perogram sudah menjadi lebih besar)
++ Kemudahan Pengelolaan
++ Kolaborasi
++ Banyak digunakan oleh framework

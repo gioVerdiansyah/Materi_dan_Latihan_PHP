@@ -5,7 +5,7 @@ require "functions.php";
     $id = $_GET["id"];
     
     // query data siswa berdasarkan ID di URL
-    $siswa = query("SELECT * FROM siswa_rpl WHERE id = $id")[0];
+$siswa = query("SELECT * FROM siswa_rpl WHERE id = $id")[0];
     // [0] adalah saat kita panggil function query() begitu dimasukkan kedalam array $rows yang kita ambil adalah index pertamanya
 
     if(isset($_POST["submit"])) {

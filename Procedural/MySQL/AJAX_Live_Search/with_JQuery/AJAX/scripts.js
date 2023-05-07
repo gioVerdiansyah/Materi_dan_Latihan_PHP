@@ -9,7 +9,7 @@ $(document).ready(function () {
     // menampilkan gif load
     $("#load").show();
 
-    // ajax menggunakan load
+    // ajax menggunakan tanpa load
     // $("#table-container").load(
     //   "AJAX/value-search.php?key=" + $("#search").val()
     // );
